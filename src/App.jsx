@@ -128,13 +128,25 @@ function App() {
           </p>
 
           <div className="contact-links">
-            <a
-              href="https://github.com/devanshtiwari856"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
+            <div className="project-links">
+  <a
+    href="https://ai-saa-s-platform-opu2.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+    className="project-link"
+  >
+    Live Demo ↗
+  </a>
+
+  <a
+    href="https://github.com/devanshtiwari856/AI-SaaS-Platform"
+    target="_blank"
+    rel="noreferrer"
+    className="project-link"
+  >
+    GitHub ↗
+  </a>
+</div>
 
             <a
   href="https://mail.google.com/mail/?view=cm&fs=1&to=devanshtiwari856@gmail.com"
